@@ -1,0 +1,16 @@
+body {
+    font-size: 2em;
+}
+/*
+tr:nth-child(2n+1) {
+    background-color: gray;
+}
+tr:nth-child(2n+2) {
+    background-color:violet;
+}*/
+td:nth-child(2n+1) {
+    background-color:aquamarine;
+}
+td:nth-child(2n+2) {
+    background-color:yellowgreen;
+}

@@ -1,0 +1,15 @@
+#upper {
+    text-transform: uppercase;
+    text-decoration: underline;
+    vertical-align: 
+}
+
+#lower {
+    text-transform: lowercase;
+    text-decoration: line-through;
+    text-align: justify;
+
+}
+h1 {
+    text-shadow: 4px 4px 0px rgba(150, 150, 150, 0.72); 
+}
