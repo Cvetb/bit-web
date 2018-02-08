@@ -1,0 +1,24 @@
+#circle {
+    list-style-type: circle;
+}
+#squares {
+    list-style-type: square;
+}
+#upper {
+    list-style-type: upper-alpha;
+}
+#roman {
+    list-style-type: upper-roman;
+}
+
+#listimages {
+
+    width: 200px;
+    list-style-image: url(https://static.tutsplus.com/assets/redesign/webdesign-8aa1b0ce3ac711a68baaf9220b12107e.svg) ;
+}
+
+#images {
+    list-style-position: inside;
+    width: 200px;
+    list-style-image: url(https://www.igvita.com/slides/2012/web-performance-for-the-curious/images/xchromeponi-small.png.pagespeed.ic.Wqh86T0Q7p.png);
+}
