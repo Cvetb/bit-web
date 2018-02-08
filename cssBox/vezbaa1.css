@@ -1,0 +1,19 @@
+#parahidden {
+    background-color: yellow;
+    height: 500px;
+    max-width: 300px;
+    overflow: hidden;
+}
+#parascroll {
+    background-color:red;
+    max-height: 200px;
+    width: 600px;
+    overflow: scroll;
+}
+    
+#parasmall {
+    background-color: blue;
+    max-height: 400px;
+    min-height: 100px;
+    width: 200px;
+}

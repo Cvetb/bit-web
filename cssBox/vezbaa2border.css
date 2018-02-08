@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+p {
+    background-color: rosybrown;
+    border-width: 5px;
+    display: inline-block;
+}
+
+#reddashed {
+    border: red dashed 5px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+#greensolid {
+    border: green solid 5px;
+    width: 400px;
+    margin-right: 20px;
+    visibility: hidden;
+
+}
+#third {
+    border: red dashed 5px;
+    width: 200px;
+    margin-right: 20px;
+}
+#third:hover {
+    visibility: hidden;
+}
+header {
+    width: 960px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: bisque;
+    color: darkblue;
+    padding: 50px 0px;
+    -webkit-box-shadow: 10px 10px 20px 10px rgba(102,49,102,1);
+    -moz-box-shadow: 10px 10px 20px 10px rgba(102,49,102,1);
+    box-shadow: 10px 10px 20px 10px rgba(102,49,102,1);
+    border-radius: 56px 56px 56px 56px;
+-moz-border-radius: 56px 56px 56px 56px;
+-webkit-border-radius: 56px 56px 56px 56px;
+border: 0px solid #000000;
+font-family: 'Rammetto One', cursive;
+}
