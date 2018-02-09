@@ -1,0 +1,78 @@
+form{
+    background-color: rgb(212, 212, 212);
+    width:20%;
+    margin: 80px auto 10px auto;
+    color: rgb(0, 0, 80);
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+
+    display: block;
+    padding: 10px;
+    margin:1px auto 1px auto;
+    line-height: 150%;
+}
+
+#divlabel{
+    margin:1px auto 1px auto;
+    width: 90%;
+}
+
+input{
+    width: 85%;
+    padding: 10px 10px 10px 30px;  
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-y: 5px;
+}
+
+#fullname>input{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/User_font_awesome.svg/1024px-User_font_awesome.svg.png);
+}
+#email>input{
+    background-image: url(http://www.myiconfinder.com/uploads/iconsets/256-256-2551789035d03d242a37aec568dc8eea-email.png);
+}
+#contact>input{
+    background-image: url(https://cdn2.iconfinder.com/data/icons/picons-essentials/71/mobile-512.png);
+    background-size: 30px;
+}
+#address>input{
+    background-image: url(https://cdn3.iconfinder.com/data/icons/social-messaging-productivity-4/128/home2-512.png);
+}
+
+hr{
+    width: 80%;
+    padding: -5px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+    padding-top: 30px;
+}
+
+span{
+    color: orange;
+}
+
+#submit{
+    background-color: red;
+    width: 40%;
+    color: white;
+    margin-bottom: 20px;
+}
+   
+
+#divsubmit{
+    width: 85%;
+    margin:20px;
+}
+

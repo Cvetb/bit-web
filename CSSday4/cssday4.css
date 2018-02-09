@@ -1,0 +1,39 @@
+table {
+    margin: 10px auto 10px auto;
+    border-collapse: collapse;
+    text-align: center;
+    width: 70%;
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgb(243, 243, 243);
+}
+
+tr:hover {
+    background-color: rgb(247, 181, 0);
+}
+
+td, th {
+    padding: 10px 0px 10px 0px;
+}
+
+#redrow {
+    background-color: rgb(112, 5, 5);
+    color: aliceblue;
+}
+
+#samsung {
+   height: 100px;
+}
+
+#nokia {
+    height: 100px;
+}
+
+#iPhone {
+    height: 100px;
+}
+
+#Huawei {
+    height: 100px;
+}
