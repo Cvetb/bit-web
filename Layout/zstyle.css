@@ -1,0 +1,62 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+
+div:first-child {
+    background-color: red;
+}
+div:nth-child(2) {
+    background-color: yellow;
+}
+div:nth-child(3) {
+    background-color: rgb(6, 6, 31);
+}
+
+div:nth-child(5) {
+    background-color: red;
+}
+div:nth-child(6) {
+    background-color: yellow;
+    position: relative;
+    left: 100px;
+    top: -100px;
+
+}
+div:nth-child(7) {
+    background-color: rgb(6, 6, 31);
+    position: relative;
+    left: 200px;
+    top: -200px;
+
+}
+
+.parent {
+    position: relative;
+    width: 100%;
+}
+.parent div:nth-child(1) {
+    background-color: rgb(182, 21, 21);
+    position: absolute;
+    right: 0px;
+    z-index: 3;
+}
+.parent div:nth-child(2) {
+    background-color: rgb(206, 175, 0);
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    z-index: 2;
+    
+
+}
+.parent div:nth-child(3) {
+    background-color: rgb(6, 6, 31);
+    position: absolute;
+    right: 200px;
+    top: 200px;
+
+
+}
+
