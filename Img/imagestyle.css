@@ -1,0 +1,21 @@
+div>img {
+    display: block;
+    overflow: hidden;
+}
+
+div>:nth-child(1) {
+    height: 200px;
+    float: right;
+}
+
+div>:nth-child(2) {
+    width: 200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+div>:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    float: left;
+}

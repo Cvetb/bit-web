@@ -1,0 +1,33 @@
+body {
+    width: 90%;
+    margin: 30px auto;
+}
+
+img {
+    float: left;
+    width: 100px;
+    margin-right: 30px;
+}
+
+main>:nth-child(1) {
+    float: left;
+    width: 40%;
+    clear: left;
+}
+
+main>:nth-child(2), main>:nth-child(3) {
+    float: right;
+    width: 50%;
+    border-left: 2px solid black;
+    padding-left: 20px;
+}
+
+header>h1 {
+    padding-top: 40px;
+    
+}
+
+header>p {
+   
+
+}
