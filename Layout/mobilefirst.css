@@ -1,0 +1,158 @@
+
+nav {
+    margin: 0 auto;
+    
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+
+li{
+    border: 1px solid rgb(201, 201, 201);
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+header{
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > img{
+    width:100%;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+article{
+    border: 1px solid rgb(201, 201, 201);
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+article > img{
+    width:100%;
+}
+
+li:hover {
+    background-color: rgb(50, 125, 211);
+}
+
+li:hover > a{
+    color:white;
+}
+
+li:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media only screen and (min-width:768px){
+article > img{
+    float: left;
+    width:30%;
+    clear: left;
+    }
+
+    article{
+        overflow: hidden;
+    }
+main :first-child{
+    margin-top: 20px;
+}
+    p {
+        text-align: center;
+        padding: 10px;
+    }
+
+    h1 {
+        text-align: left;
+        width: 60%;
+    }
+
+    #container {
+        position: relative;
+    }
+
+    
+    ul{
+        list-style-type: none;
+        text-align: center;
+        text-decoration: none;
+        padding: 0px;
+        position: absolute;
+        right: 0px;
+        top: -15px;
+        width: 40%;
+        float:right;
+    }
+
+    
+    li{
+        border: none;
+        padding: 10px 0px;
+        width: 20%;
+        display: inline-block;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    li:first-child{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+}
+
+@media only screen and (min-width:992px){
+ 
+    
+        article{
+            overflow: hidden;
+            text-align: center;
+            border: none;
+            width: 31.5%;
+            float: left;
+        }
+
+        article > img{
+            width:100%;
+            display: block;
+            margin: 0 auto;
+            }
+    
+        p {
+            text-align: center;
+            clear: left;
+            padding:10px;
+            }
+
+        main{
+            overflow: hidden;
+
+            margin: 20px auto 0 auto;
+        }
+
+        main :first-child{
+            margin-top: 0px;
+        }
+
+}
