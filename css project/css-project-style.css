@@ -4,45 +4,42 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-body{
-    width: 100%;
-}
-p{
-    padding: 2%;
-}
+
+
 #container {
-    width: 100%;
+    width: 90%;
 }
 header {
     background-image: url("banner3.jpg");
     background-repeat: repeat;
     background-size: cover;
     color: white;
-    font-size: 65%;
+    font-size: 0.65em;
     text-align: center;
     padding:20px;
+    width: 100%;
     
 }
 button {
-background-color:#007acc;
-padding: 5px 20px;
-border-radius: 40px;
-margin-top: 20px;
-color: white;
-border-style: none;
+    background-color:#007acc;
+    padding: 5px 20px;
+    border-radius: 40px;
+    margin-top: 20px;
+    color: white;
+    border-style: none;
 }
-h2{
-font-weight: bold;
-color: grey;
-text-align: center;
-margin: 30px auto 10px auto;
-font-size: medium;
+h2 {
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+    margin: 30px auto 10px auto;
+    font-size: medium;
 }
-span{
-color: orange;
-border-bottom: 3px solid grey;
-border-left: 3px solid grey;
-border-top: 3px solid gray;
+span {
+    color: orange;
+    border-bottom: 3px solid grey;
+    border-left: 3px solid grey;
+    border-top: 3px solid gray;
 }
 ul{
     list-style-type: none;
@@ -55,7 +52,7 @@ nav {
     color: white;
     padding: 20px 0px;
     margin: 5px 15px;
-
+    width: 100%;
 }
 h3 {
     text-align: center;
@@ -76,105 +73,105 @@ h4 {
     font-size: 1.1em;
     margin: 2px;
 }
-h5{
+h5 {
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 20px;
 }
 q {
-    text-align: left;
-    font-size: 75%;
-    line-height: 30px;
-    
+    box-sizing: border-box;
+    font-size: 0.75em;
+    margin: 2% auto;
 }
- .bullet{
-     text-align: left;
-     font-size: 80%;
-     padding: 5px 0px 5px 20px;
+.bullet {
+     text-align: center;
+     font-size: 0.8em;
+     padding: 5%;;
      color: rgb(155, 155, 155);
      list-style-type: none;
-     line-height: 40px;
      text-transform: capitalize;
      
      }
 
-.about{
-        margin: 0 auto;
-        width: 80%;
-        height: 250px;
-        background-image: url("about.jpg");
+.about {
+    margin: 0 auto;
+    width: 80%;
+    height: 250px;
+    background-image: url("about.jpg");
         
      }
-#contact{
+#contact {
     text-align: center;
     font-size: 110%;
     background-color:#90EE90;
-    padding: 10%;
+    padding: 5%;
     color: white;
+    width: 100%;
     }
-    #social{
-        text-align: center;
-        font-size: 110%;
-        background-color:#F08080;
-        padding: 10%;
-        color: white;
+#social {
+    text-align: center;
+    font-size: 110%;
+    background-color:#F08080;
+    padding: 5%;
+    color: white;
+    width: 100%;
     }
-    #address{
-        text-align: center;
-        font-size: 110%;
-        background-color:#3366cc;
-        padding:15% 2%;
-        color: white;
-
+#address {
+    text-align: center;
+    font-size: 110%;
+    background-color:#3366cc;
+    padding: 5%;
+    color: white;
+    width: 100%;
     }
     
-    #house{
-        background-color:rgb(74, 154, 228); 
-        text-align: center;
-        
+#house {
+    background-color:rgb(74, 154, 228); 
+    text-align: center;
+    padding: 5%;
+    width: 100%;   
     }
-    input, textarea {
-        width: 90%;
-        padding: 10px;
-margin: 5px;
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
     }
-    #submit{
-        border-radius: 2px;
-        background-color: orange;
-        color: white;
-        margin-left: 5px;
-        margin-bottom: 40px;
+#submit {
+    border-radius: 2px;
+    background-color: orange;
+    color: white;
+    margin-left: 5px;
+    margin-bottom: 40px;
 }
-footer{
+footer {
     background-color: rgb(39, 38, 38);
     color: white;
-    padding: 30px 8px;
-    height: 100px;
+    padding: 10%;
+    width: 100%;
 }
 .fa-arrow-alt-circle-right {
-color: orange;
-margin-right: 10px;
-text-align: left;
+    color: orange;
+    margin-right: 10px;
+    text-align: left;
 }
 section {
     background-color:#55ACEE;
-    width: 90%;
     padding: 5%;
     color: white;
-    margin: 20px;
+    width: 100%;
 }
-h6{
+h6 {
     font-size: 110%;
     color: black;
 }
 section > img {
-border-radius: 50%;
-border:2px solid white;
-width: 100px;
-float: left;
-padding: 5px;
+    border-radius: 50%;
+    border:2px solid white;
+    width: 100px;
+    float: left;
+    padding: 5px;
 
 }
-section > p {
+article > p {
     clear: left;
 }

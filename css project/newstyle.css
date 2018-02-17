@@ -1,0 +1,170 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+main {
+    height: 40%;
+    background-image: url(banner3.jpg);
+    background-size: cover;
+    padding: 8% 2%;
+    margin-bottom: 2%;
+}
+nav {
+font-size: 1.5em;
+background-color: lightskyblue;
+margin: 4%;
+color: white;
+}
+nav li {
+    text-transform: uppercase;
+    font-size: 0.6em;
+    padding-bottom: 4%;
+    text-align: center;
+}
+nav :first-child {
+    padding-top: 2%;
+}
+button {
+
+}
+q {
+    font-size: 0.8em;
+    padding: 3%;
+    text-align: left;
+    margin-top: 2%;
+}
+li {
+    list-style-type: none;
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6,p,li,input {
+    padding: 1%;
+    text-transform: capitalize;
+}
+h1 {
+    font-size: 1.45em;
+    color: white;
+}
+h2 {
+    font-size: 1.45em;
+    font-weight: bolder;
+    color: lightslategray;
+    margin-bottom: 30%;
+}
+span {
+    color: orange;
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    border-left: 4px solid gray;
+}
+h3 {
+    font-size: 1.6em;
+    font-weight: lighter;
+    margin-top: 15%;
+
+}
+.welcome {
+    display: block;
+    margin: 5% 2% 5% 2%;
+}
+h4 {
+    color: steelblue;
+    font-size: 1.25em;
+    padding-bottom: 5%;
+}
+h5 {
+text-transform: uppercase;
+font-size: 1.1em;
+}
+h6 {
+color: black;
+position: absolute;
+top:18%;
+left: 27%;
+clear: left;
+font-size: 1.2em;
+}
+.welcome li{
+    font-size:0.75em;
+    color: gray;
+    text-indent: 15%;
+    padding-top: 5%;
+}
+
+.comments{
+    margin: 4% 8%;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 0.6em;
+    padding: 1%;
+    position: relative;
+}
+.stars {
+    color: white;
+    border: none;
+    
+}
+.comments >img{
+    border-radius: 50%;
+    border:1.5px solid white;
+    width: 15%;
+    float: left;
+    padding: 3px;
+    margin: 5% 2% 0% 2%;
+}
+article >p{
+    clear: left;
+    text-align: justify;
+    line-height: 2.5em;
+}
+#about {
+
+}
+#contact {
+    background-color: aqua;
+    padding: 8% 5% 10% 5%;
+    color: white;
+    text-align: center;
+    line-height: 2em;
+    font-size: 0.8em;
+}
+#social {
+    background-color: violet;
+    padding: 8% 5% 12% 5%;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+#address {
+    background-color: lightseagreen;
+    padding: 5% 5% 7% 5%;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+#house {
+    background-color: lightskyblue;
+    padding: 5%;
+    text-align: center;
+}
+iframe {
+
+}
+#mail{
+    padding: 5%;
+}
+form {
+    padding: 2%;
+}
+footer {
+    padding: 8% 5%;
+    background-color: darkslategray;
+    color: white;
+    font-size: 0.8em;
+}
