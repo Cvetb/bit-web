@@ -308,8 +308,11 @@ hr:after {
         #contact, #social, #address, #house {
             width: 40%;
             float: left;
+            height: 150px;
         }
-    
+        #contact {
+            padding-top: 10%;
+        }
         #house >img {
             width: 100px;
         }

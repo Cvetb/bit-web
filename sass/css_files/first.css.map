@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,CAAE;EACE,KAAK,EAFD,IAAI",
+"sources": ["../sass_files/first.scss"],
+"names": [],
+"file": "first.css"
+}

@@ -1,0 +1,18 @@
+div {
+  background-color: #0059ff;
+  font-size: 2em;
+  -webkit-box-shadow: 7px 10px 30px 8px #1e821e;
+  -moz-box-shadow: 7px 10px 30px 8px #1e821e;
+  box-shadow: 7px 10px 30px 8px #1e821e;
+  padding: 50px; }
+  div p {
+    background-color: yellow;
+    -webkit-box-shadow: -7px -10px 15px 8px #643214;
+    -moz-box-shadow: -7px -10px 15px 8px #643214;
+    box-shadow: -7px -10px 15px 8px #643214; }
+
+body > p {
+  text-shadow: 4px 4px 2px orange;
+  font-size: 4em; }
+
+/*# sourceMappingURL=style1.css.map */

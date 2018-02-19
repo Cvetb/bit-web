@@ -1,0 +1,17 @@
+
+@import'var';
+@import 'mixins';
+div {
+    background-color: $background-color;
+    font-size: $font-size;
+    @include box-shadow(rgba(30, 130, 30, 1), 7px, 10px, 30px);
+    padding: 50px;
+    p {
+        background-color: yellow;
+        @include box-shadow(rgba(100, 50, 20, 1), -7px, -10px, 15px);
+    }
+}
+body>p{
+    @include text-shadow(4px,4px, 2px, orange, 4em);
+
+}
