@@ -1,0 +1,28 @@
+
+
+@function changeDimension($width, $padding, $border) {
+    @return $width + 2 * $padding + 2 * $border;
+}
+p{
+    border: 5px solid blue;
+    padding: 10px;
+}
+p:nth-child(1) {
+    box-sizing: content-box;
+    width: 250px;
+}
+p:nth-child(2) {
+    box-sizing: border-box;
+    width: changeDimension(250px,10px,5px);
+}
+table {
+  
+    padding: 5px;
+}
+@function columnwidth($width, $n){
+    @return $width / $n ;
+}
+td {
+    border: 1px solid gray;
+    width: columnwidth(500px, 3)
+}

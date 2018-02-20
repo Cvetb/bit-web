@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+ 
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: black;
+    background-color: green;
+
+    &.important {
+        font-weight: bold;
+    }
+
+    &:active {
+       background-color: yellow;
+    }
+    
+    &:visited {
+        background-color: orange;
+    }
+    
+
+}

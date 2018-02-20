@@ -1,0 +1,17 @@
+.first, .second, .third {
+  padding: 10px;
+  border: 2px solid red;
+  margin: 10px;
+  text-align: center;
+  background-color: #c2c2d4;
+  color: #053a3b;
+  display: inline-block;
+  width: 29.1666666667%; }
+
+.second {
+  border-color: blue; }
+
+.third {
+  border-color: green; }
+
+/*# sourceMappingURL=InherOper.css.map */

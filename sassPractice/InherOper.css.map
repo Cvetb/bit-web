@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,uBAAO;EACH,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,aAAa;EACrB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,MAAM;EAClB,gBAAgB,EAAE,OAAkB;EACpC,KAAK,EAAC,OAAc;EACpB,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,cAAiB;;AAG5B,OAAQ;EAEJ,YAAY,EAAE,IAAI;;AAItB,MAAO;EAEH,YAAY,EAAE,KAAK",
+"sources": ["sassInheritanceOperators.scss"],
+"names": [],
+"file": "InherOper.css"
+}

@@ -1,0 +1,17 @@
+p:nth-child(1) {
+  font-size: 16px;
+  background-color: blue; }
+
+p:nth-child(2) {
+  font-size: 18px;
+  background-color: bisque; }
+
+p:nth-child(3) {
+  font-size: 20px;
+  background-color: red; }
+
+p:nth-child(4) {
+  font-size: 22px;
+  background-color: aquamarine; }
+
+/*# sourceMappingURL=control-directives.css.map */

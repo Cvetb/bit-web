@@ -1,0 +1,21 @@
+@mixin colors($n) {
+    @if $n==1 {
+        background-color: blue;
+    }
+    @else if $n==2 {
+        background-color: bisque;
+    }
+    @else if $n==3 {
+        background-color: red;
+    }
+    @else if $n==4 {
+        background-color: aquamarine;
+    }
+}
+
+@for $i from 1 through 4 {
+    p:nth-child(#{$i}) {
+        font-size: 16px + ($i - 1)*2px;
+        @include colors($i);
+    }
+}
