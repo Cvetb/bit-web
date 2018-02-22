@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+main {
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+.navbar-toggler-right {
+    color: white;
+}
+    
+.navbar{
+    background-color: darkred;
+    width: 60%;
+    margin: 2px auto 20px auto;
+}
+.nav-link, .navbar-brand {
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+
+#text {
+    background-color: rgb(255, 208, 0);
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+div {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+*[class^="col-"] {
+    border: 1px solid gray;
+}
+
+#mainPict {
+    margin-top: 120px;
+}
+
+footer {
+    background-color: #365d7e;
+    padding: 15px;
+    margin: 5px auto;
+    color: aliceblue;
+    width: 100%;
+    padding-left: 280px;
+    box-sizing: border-box;
+}
