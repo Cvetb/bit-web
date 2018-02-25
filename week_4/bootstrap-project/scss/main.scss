@@ -1,0 +1,124 @@
+$primary-color:#18bc9c;
+$secundary-color: #2c3e50;
+$padd: 10%;
+@import 'hr';
+@import 'mixins';
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+#mainNav {
+    background-color: $secundary-color;
+    .navbar-brand {
+        font-size: 1em;
+        font-weight: 900;
+    }
+    #menu {
+        background-color: $primary-color;
+        font-weight: 700;
+        font-size: 1em;
+        padding: 8px 5px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+}
+
+header {
+    background-color: $primary-color;
+    margin-top: 12%;
+    padding: $padd 0%;
+    h4 {
+        font-size: 1.2em;
+        margin: 20px 0px 22px 0px;
+        @media (min-width: 768px) {
+            font-size: 3em;
+            margin: 5% 20%;
+        }
+    }
+    h6 {
+        font-size: 0.9em;
+        margin: 20px 0px;
+        @media (min-width: 768px) {
+            font-size: 1.5em;
+            margin: 5% 15%;
+        }
+    }
+    @media (min-width: 768px) {
+        margin-top: 0px;
+    }
+}
+
+#portfolio {
+    padding: 10px 5px 20px 5px;
+    img {
+        margin: 5px 20px;
+        @media (min-width: 768px) {
+            min-width: 320px;
+        }
+        @media (min-width: 992px) {
+            max-width: 280px;
+        }
+    }
+}
+
+#about {
+    background-color: $primary-color;
+    padding: 20px 5px;
+    font-weight: 700;
+    p {
+        text-align: left;
+    }
+    @media (min-width: 768px) {
+        padding: 8% 15%;
+        font-size: 1.4em;
+    }
+}
+
+#contact {
+    padding: $padd $padd / 5;
+    input {
+        border-style: none;
+        padding: 3% 1%;
+        font-size: 1.2em;
+        color: #495057;
+        text-align: left;
+    }
+    @media (min-width: 768px) {
+        padding: 15% 15%;
+    }
+}
+
+footer {
+    background-color: $secundary-color;
+    padding: 10px 5px 20px 5px;
+    h3 {
+        font-size: 1.1em;
+    }
+    #location,
+    #around,
+    #details {
+        padding: 20px 0px;
+        @media (min-width: 992px) {
+            margin:10% auto;
+            padding: 15% 2%;
+        }
+    }
+}
+
+#sendMessageButton {
+    background-color: $primary-color;
+    font-weight: 900;
+    color: white;
+    padding: $padd / 5 $padd / 2;
+    margin: 3%;
+}

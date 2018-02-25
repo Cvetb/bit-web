@@ -1,0 +1,29 @@
+hr {
+    border-top: 4px solid white;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    text-align: center;
+    width: 50%;
+    margin: 20px auto 15px auto;
+    &:after {
+        content: '\2605';
+        display: inline-block;
+        position: relative;
+        top: -30px;
+        padding: 0px 5px;
+        background: $primary-color;
+        color: white;
+        font-size: 2em;
+    }
+}
+
+.dark {
+    @extend hr;
+    border-top: 3px solid black;
+    &:after {
+        @extend hr:after;
+        background: white;
+        color: black;
+    }
+}
