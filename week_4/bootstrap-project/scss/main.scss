@@ -1,8 +1,9 @@
 $primary-color:#18bc9c;
 $secundary-color: #2c3e50;
-$padd: 10%;
+
 @import 'hr';
 @import 'mixins';
+
 * {
     margin: 0px;
     padding: 0px;
@@ -35,8 +36,8 @@ h6 {
 
 header {
     background-color: $primary-color;
-    margin-top: 12%;
-    padding: $padd 0%;
+    padding: 15% 5% 10% 5%;
+   
     h4 {
         font-size: 1.2em;
         margin: 20px 0px 22px 0px;
@@ -60,6 +61,7 @@ header {
 
 #portfolio {
     padding: 10px 5px 20px 5px;
+
     img {
         margin: 5px 20px;
         @media (min-width: 768px) {
@@ -68,6 +70,9 @@ header {
         @media (min-width: 992px) {
             max-width: 280px;
         }
+    }
+    @media (min-width: 768px) {
+       margin: 2% auto;
     }
 }
 
@@ -81,17 +86,32 @@ header {
     @media (min-width: 768px) {
         padding: 8% 15%;
         font-size: 1.4em;
+        hr {
+            padding-bottom: 20px;
+        }
+        
     }
 }
 
 #contact {
-    padding: $padd $padd / 5;
+    padding: 0% 2%;
     input {
         border-style: none;
-        padding: 3% 1%;
+        border-bottom: 2px solid #b2b4b6;
+        padding: 5% 1%;
         font-size: 1.2em;
         color: #495057;
         text-align: left;
+        margin-bottom: 1%;
+        
+    }
+    #sendMessageButton {
+        background-color: $primary-color;
+        font-weight: 900;
+        color: white;
+        padding: 2% 5%;
+        margin: 3% 0%;
+    
     }
     @media (min-width: 768px) {
         padding: 15% 15%;
@@ -107,7 +127,7 @@ footer {
     #location,
     #around,
     #details {
-        padding: 20px 0px;
+        padding: 20px 5px;
         @media (min-width: 992px) {
             margin:10% auto;
             padding: 15% 2%;
@@ -115,10 +135,3 @@ footer {
     }
 }
 
-#sendMessageButton {
-    background-color: $primary-color;
-    font-weight: 900;
-    color: white;
-    padding: $padd / 5 $padd / 2;
-    margin: 3%;
-}
