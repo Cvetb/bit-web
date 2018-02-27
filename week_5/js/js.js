@@ -1,6 +1,6 @@
 /*var welcomeMessage = 'Hello World!';
 console.log(welcomeMessage);*/
-
+/*
 var myFunction = function () {
     var x = "Platform: " + navigator.platform;
     var y = "\n" + "Version info: " + navigator.appVersion;
@@ -46,7 +46,7 @@ locat();*/
     
 }
 redir();
-*/
+
 var storage = localStorage;
 var save = function (key, value) {
     storage.setItem(key, value);
@@ -71,3 +71,32 @@ var r = function(){
     return storage.removeItem("tihomir");
 }
 r();
+
+/*var branka = function(){
+
+ history.forward();
+    
+
+}
+    branka();
+
+var win = function (){
+ window.open('http://google.com');
+}
+win();
+*/
+
+//setTimeout(function () { alert('zdravo!') }, 4000);
+
+(function () {
+    alert('Hi, Stevan');
+
+    var answer = prompt('How many students we have?');
+
+    confirm('we will submit this answer now: ' + answer);
+
+    if (answer == true) {
+        alert('success');
+    }
+
+})();
