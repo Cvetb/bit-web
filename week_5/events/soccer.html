@@ -10,24 +10,18 @@
 </head>
 
 <body>
-
-    <img src="player.png" alt="" id="play">
-    <input type="button" value="stop moving">
-
+    <div id="playground">
+        <img src="player.png" alt="" id="play">
+        <input type="button" value="stop moving" id="stop">
+    </div>
     <script>
-
-        var player = document.querySelector('#play');
-
-
-       document.querySelector('body').onclick = function (event) {
-
+        document.querySelector('#playground').onclick = function(event){
             var x = event.clientX;
             var y = event.clientY;
-            document.querySelector('#play').style.left = x + "px"
-            document.querySelector('#play').style.top = y + "px"
-            
-        };
-
+            document.querySelector('#play').style.top = y + 'px';
+            document.querySelector('#play').style.left = x + 'px';
+        }
+        
     </script>
 </body>
 

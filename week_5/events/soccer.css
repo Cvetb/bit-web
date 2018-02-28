@@ -1,14 +1,22 @@
-body{
+#playground{
     background-image: url(./field.png);
     background-repeat: no-repeat;
     background-size: cover;
+    border: 4px dotted red;
+    width: 100%;
+    height: 900px;
 }
-img{
+
+#play{
     width: 150px;
+    position: absolute;
 }
-input{
+#stop{
 position: absolute;
 right: 30px;
 bottom: 30px;
-background-color: tomato;
+background-color: darkred;
+padding: 10px;
+color: white;
+border-style: none;
 }
