@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(2, 18, 254);
+    margin: 0;
+}
+
+div {
+    background-image: url(./img/bg.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 950px;
+    margin: 0px;
+    padding: 10px;
+    background-position-y: 100%;
+}
+
+img {
+    position: absolute;
+    bottom: 70px;
+    left: 180px;
+}
+.stay{
+display: inline;
+}
+.run{
+display: none;
+}
