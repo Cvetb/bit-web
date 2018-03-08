@@ -1,38 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>GitHub Searcher</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <style>
-        body{
-            margin: 50px 10px 10px 100px;
+        body {
+            margin: 50px;
             height: 900px;
+            width: 100%;
         }
 
-        #test{
-            margin-top: 20px;
+        #test {
+            margin: 20px;
         }
-      
+
+        img {
+            width: 20%;
+            margin: 5px;
+        }
+        p{
+        display: inline;
+            margin: 10px;
+        }
     </style>
 </head>
+
 <body>
     <div class="">
         <h1>GitHubSearcher</h1>
         <form class="form-inline">
-          <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button id="button" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <input id="search" class="form-control mr-md-4" type="search" placeholder="Search" aria-label="Search">
+            <button id="button" class="btn btn-outline-success btn-lg my-2 my-sm-0" type="submit">Search</button>
         </form>
-    </div><br>
-    <div class="row">
-            <div id="test" class="col-xl-4"></div>
     </div>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+    <br>
+    <div class="row">
+        <div id="test" class="col-xl-12"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <script src="githubsearcher.js"></script>
 </body>
+
 </html>

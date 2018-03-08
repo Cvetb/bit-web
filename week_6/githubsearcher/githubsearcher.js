@@ -1,22 +1,32 @@
-
-var user = document.querySelector("#search").value;
-
-function getUser() {
-    var request = $.ajax({
-        url: "https://api.github.com/search/users?q="+user,
-        method: "GET",
-        //data: { id : },
-        dataType: "html",
-        success: function (response) {
-            user = response.value;
-            $("#test").text(user);
-        }
-    });
-
-}
 $("#search").on("keydown", function (event) {
-    event.preventDefault();
+    
     if (event.keyCode == 13) {
-        getUser();
+        event.preventDefault();
+        
     }
 });
+
+var user = $("#search").val();
+
+    var request = $.ajax({
+        url: "https://api.github.com/search/users?q="+user,
+        method: "GET"
+    });
+    request.done(function (response) {
+        const users = response.items;
+
+        console.log(users);
+        for (let i = 0; i < users.length; i++) {
+            const img = $(`<img src="${users[i].avatar_url}" />`)
+            $("#test").append(img);
+            const login = $(`<p>${users[i].login}<p/>`)
+            $("#test").append(login);
+        }
+
+    });
+
+    request.fail(function (jqXHR, textStatus) {
+        alert("Request failed" + textStatus);
+    })
+
+  
