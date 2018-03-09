@@ -1,10 +1,10 @@
-$("#search").on("keydown", function (event) {
+$("#search").on("keyup", function (event) {
     
     if (event.keyCode == 13) {
         event.preventDefault();
         
-    }
-});
+    
+
 
 var user = $("#search").val();
 
@@ -28,5 +28,5 @@ var user = $("#search").val();
     request.fail(function (jqXHR, textStatus) {
         alert("Request failed" + textStatus);
     })
-
-  
+    }
+});
