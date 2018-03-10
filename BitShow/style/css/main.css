@@ -1,0 +1,23 @@
+* {
+  margin: 0; }
+
+.navbar-toggler-icon {
+  color: white; }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 25px 0 15px 0; }
+
+.card {
+  margin: 10px; }
+
+h2 {
+  padding: 30px 0px 20px 0px; }
+
+#main {
+  margin: 2% 5%; }
+
+/*# sourceMappingURL=main.css.map */

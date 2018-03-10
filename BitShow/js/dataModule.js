@@ -1,14 +1,22 @@
-let dataModule = (() => {
-
-    class tvShows {
-        constructor(show) {
-            var showList = [];
-            this.limit = 50;
-
+const dataModule = (() => {
+    class TvShow {
+        constructor(name, url, id) {
+            this.name = name;
+            this.url = url;
+            this.id = id;
         }
-        addShow(show) {
-            this.showList.push(show);
-}
+    }
+
+    const createTvShow = (name, url, id) => {
+        return new TvShow(name, url, id);
+    }
+
+    const adaptTvShows = (allShows) => {
+        const shows = allShows.slice(0, 50);
+        const showObjects = shows.map(show => {
+            return createTvShow(show.name, show.image.medium, show.id);
+        });
+        return showObjects;
     }
 
     class Show {
@@ -46,15 +54,8 @@ let dataModule = (() => {
         }
 
     }
-   
-    
 
-
-   return {
-        //Season: Season,
-        //Cast: Cast,
-        //Show: Show,
-        //TvShows: TvShows,
-      
-}
+    return {
+        adaptTvShows
+    }
 })()
