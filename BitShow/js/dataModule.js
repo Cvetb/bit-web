@@ -19,13 +19,13 @@ const dataModule = (() => {
         return showObjects;
     }
 
-    class Show {
-        constructor(name, imageUrl, showId, details) {
+    class TVShowDetails {
+        constructor(name, imageUrl, showId, seasonsList, castList, details) {
             this.name = name;
             this.imageUrl = imageUrl;
             this.id = showId;
-            this.seasons = [];
-            this.cast = [];
+            this.seasons = seasonsList;
+            this.cast = castList;
             this.details = details;
 
         }
@@ -41,21 +41,53 @@ const dataModule = (() => {
         }
     }
 
+    const createTvShowDetails = (name, imageUrl, showId, seasonsList, castList, details) => {
+        return new TVShowDetails(name, imageUrl, showId, seasonsList, castList, details);
+    }
+    const adaptTvShowDetails = (name, imageUrl, showId, seasonsList, castList, details) => {
+        return createTvShowDetails(name, imageUrl, showId, seasonsList, castList, details);
+    }
+   
+
     class Cast {
         constructor(name) {
             this.name = name;
 
         }
     }
+    const createCast = (name) => {
+        return new Cast(name);
+    }
+
+    const adaptCasts = (allCasts) => {
+        const castObjects = allCasts.map(cast => {
+            return createCast(cast.person.name);
+        });
+        return castObjects;
+    }
+
     class Season {
         constructor(startDate, endDate) {
             this.start = startDate;
             this.end = endDate;
         }
+    }
 
+    const createSeason = (start, end) => {
+        return new Season(start, end);
+    }
+
+    const adaptSeason = (allSeasons) => {
+        const seasonObjects = allSeasons.map(season => {
+            return createSeason(season.premiereDate, season.endDate);
+        });
+        return seasonObjects;
     }
 
     return {
-        adaptTvShows
+        adaptTvShows,
+        adaptTvShowDetails,
+        adaptCasts,
+        adaptSeason
     }
 })()
