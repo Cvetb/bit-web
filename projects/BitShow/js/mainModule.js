@@ -7,21 +7,21 @@ const mainModule = ((UIModule, dataModule) => {
 
         request.done(response => {
             const shows = dataModule.adaptTvShows(response);
-            console.log(shows)
+
             UIModule.displayMainPage(shows);
         });
     }
 
     $('body').on('click', '.card-body', function () {
-        //console.log(this);
+
         var id = $(this).attr('id');
-        console.log(id);
-        //sacuvati u localStorage-u nas id
+
+
         localStorage.setItem('id', id);
         location.href = "show-info.html";
 
     });
-    
+
     const returnShowDetails = () => {
         var id = localStorage.getItem('id');
 
@@ -44,17 +44,17 @@ const mainModule = ((UIModule, dataModule) => {
                     url: 'http://api.tvmaze.com/shows/' + id,
                     method: "GET"
                 });
-        
+
                 request.done(response => {
                     const show = dataModule.adaptTvShowDetails(response.name, response.image.original, id, seasons, casts, response.summary);
-                    console.log(show);
-                    //TODO: uzmemo sve ovo i posaljemo u neku metodu da sredi html!
-                    UIModule.displaySingleShow(show);
-                console.log(casts);
 
+
+                    UIModule.displaySingleShow(show);
+
+
+                });
+                console.log(seasons);
             });
-            console.log(seasons);
-        });
 
 
 
@@ -85,4 +85,3 @@ const mainModule = ((UIModule, dataModule) => {
         returnShowDetails
     }
 })(UIModule, dataModule);
-   

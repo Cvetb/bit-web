@@ -1,8 +1,4 @@
 let UIModule = (() => {
-    // let UISelectors = {
-
-
-    // }
 
     const displayMainPage = (shows) => {
         shows.forEach(show => {
@@ -28,8 +24,8 @@ let UIModule = (() => {
         const showDetails = show.details;
         const castList = show.cast;
         const seasons = show.seasons;
-    
-        let seasonNumber = 0;
+
+
         const element = `
             <div class="col-lg-12">
                 <h1 class="text-center col-lg-12">${showName}</h1>
@@ -38,7 +34,7 @@ let UIModule = (() => {
                 <img src= "${showImage}">
                 </div>
                 <div class="col-lg-6">
-                <h4>Seasons (${seasonNumber})</h4>
+                <h4>Seasons (${seasons.length})</h4>
                 <ul id="seasonList"> </ul>
                 <h4>Cast</h4>
                 <ul id="castList">
@@ -51,9 +47,9 @@ let UIModule = (() => {
                     <p>${showDetails}</p>
     
             </div>`
-    
+
         $("#singleShow").append(element);
-        $("#seasonNumber").append(seasonNumber);
+
         seasons.forEach(season => {
             let premierDate = season.start;
             let endDate = season.end;
@@ -61,23 +57,23 @@ let UIModule = (() => {
                 <li>
                     <p>${premierDate} - ${endDate}</p>  
                 </li>`
-    
+
             $("#seasonList").append(seasonList);
-            seasonNumber++;
-            
+
+
         });
-    
-    
+
+
         castList.forEach(cast => {
             let castName = cast.name;
-    
+
             let castList = `
                 <li>
                     <p>${castName}</p>          
                 </li>`
-    
+
             $("#castList").append(castList);
-    
+
         });
     }
 

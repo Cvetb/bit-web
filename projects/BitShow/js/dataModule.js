@@ -11,7 +11,7 @@ const dataModule = (() => {
         return new TvShow(name, url, id);
     }
 
-    const adaptTvShows = (allSHows) => {
+    const adaptTvShows = (allShows) => {
         const shows = allShows.slice(0, 50);
         const showObjects = shows.map(show => {
             return createTvShow(show.name, show.image.medium, show.id);
