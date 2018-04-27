@@ -1,0 +1,17 @@
+body {
+    margin: 30px 20px;
+    width: 100%;
+}
+
+#test {
+    margin: 5px auto;
+}
+
+.card {
+    padding: 5px;
+    margin: 15px;
+}
+
+p {
+    margin: 5px;
+}

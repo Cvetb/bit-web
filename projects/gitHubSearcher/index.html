@@ -8,40 +8,26 @@
     <title>GitHub Searcher</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <style>
-        body {
-            margin: 50px;
-            height: 900px;
-            width: 100%;
-        }
-
-        #test {
-            margin: 20px;
-        }
-
-        img {
-            width: 20%;
-            margin: 5px;
-        }
-        p{
-        display: inline;
-            margin: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <div class="">
-        <h1>GitHubSearcher</h1>
+    <div class="container">
+
+        <h1 class="text-dark">
+            <i class="fab fa-github fa-2x"> GitHub Searcher </i>
+        </h1>
         <form class="form-inline">
             <input id="search" class="form-control mr-md-4" type="search" placeholder="Search" aria-label="Search">
-           
+
         </form>
     </div>
     <br>
-    <div class="row">
-        <div id="test" class="col-xl-12"></div>
-    </div>
+
+    <div id="test" class="row"></div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="githubsearcher.js"></script>
