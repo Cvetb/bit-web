@@ -1,4 +1,4 @@
 
-![](https://screenshotscdn.firefoxusercontent.com/images/66b1676f-e298-43f1-a734-bd686a421425.png)
+![screenshot-2018-4-30 landing page](https://user-images.githubusercontent.com/24230243/39444866-6a14f1b8-4cb9-11e8-8604-35f4e6862b36.png)
+![screenshot-2018-4-30 show info](https://user-images.githubusercontent.com/24230243/39444874-70c3e208-4cb9-11e8-88e2-c05b548e518d.png)
 
-![](https://screenshotscdn.firefoxusercontent.com/images/0e022f2a-6188-4fa2-b2e9-27c268e6c26e.jpg)
